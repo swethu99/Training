@@ -1,0 +1,54 @@
+header{
+    height: 60px;
+    line-height: 60px;
+    background-color:mediumblue;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    margin:0;
+    width: 100%;
+}
+header h1{
+    margin:0;
+}
+.container{
+    width: 100%;
+}
+body{
+    font-family: 'Roboto';
+    display: flex;
+    align-items: center;
+}
+.left {
+    float: left;
+    margin: 10px;
+    width: 57%;
+    height: auto;
+    border: 1px solid blue;
+}
+.left p, .right p {
+    padding: 0 20px 0 20px;
+
+}
+.left h2, .right h2{
+    padding: 20px;
+    background-color: mediumblue;
+    height: 30px;
+    color:white;
+    margin: 0;
+}
+.right{
+    float: right;
+    margin: 10px;
+    width: 37%;
+    height: auto;
+    border: 1px solid blue;
+}
+
+@media (max-width: 857px) {
+    .right, .left {
+      float: left;
+      width: 80%;
+
+    }
+  }
