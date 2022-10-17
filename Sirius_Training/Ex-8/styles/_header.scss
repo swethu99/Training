@@ -1,0 +1,16 @@
+@import './variables';
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    @include flexCenter();
+    height: 60px;
+    background-color: $headerColor;
+    img{
+        height: 100%;
+    }
+}
